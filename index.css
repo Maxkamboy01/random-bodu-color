@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+button {
+  width: fit-content;
+  height: 40px;
+  border: 2px solid #ffbf2b;
+  outline: none;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 10px 15px;
+  margin: 300px 50px;
+  transition-duration: 0.4s;
+  
+}
+button:hover {
+  background-color: #ffbf2b;
+  color: white;
+}
